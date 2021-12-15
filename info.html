@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="shorcut icon" type="image/x-icon" href="img/Api.ico">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header nes-container ">
+            <div class="header__container ">
+                <p class="header__titulo">API REST</p>
+            </div>
+            <nav class="navegation">
+                <ul class="navegation__ul">
+                    <li class="navegation__li">
+                        <a href="index.html" class="navegation__a">Inicio</a>
+                    </li>
+                    <li class="navegation__li">
+                        <a href="consumiendo.html" class="navegation__a">Consumiendo una API Rest</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="titulo__container">
+                <h3 class="titulo">¿Qué es una <span class="nes-text is-success">API REST</span>?</h3>
+            </div>
+            <div class="main__containers">
+                <section class="message -left parrafo__container">
+                    <div class="nes-balloon from-left">
+                        <p class="parrafo">
+                            Una API REST es una interfaz de programación de aplicaciones <span class="nes-text is-primary">(API o API web)</span>que se ajusta a los límites de arquitectura Rest
+                            y permite la interacción con los servicios web de RESTful.
+                        </p>
+                    </div>
+                </section>
+                <div class="img__container">
+                    <img class="img" src="img/RestApi.jpg" alt="">
+                </div>
+            </div>
+            <div class="titulo__container">
+                <h3 class="titulo">¿Qué es una <span class="nes-text is-success">API</span>?</h3>
+            </div>
+            <div class="main__containers">
+                <section  class="message -right parrafo__container">
+                    <div class="nes-balloon from-right">
+                        <p class="parrafo">
+                            Las API son conjuntos de definiciones y protocolos que se utilizan para diseñar e integrar
+                            el software de las aplicaciones.Suele considerarse como el contrato entre el proveedor de 
+                            información y el usuario, donde se establece el contenido que se necesita por parte del 
+                            consumidor <span class="nes-text is-primary">(la llamada)</span> y el que requiere el 
+                            productor <span class="nes-text is-primary">(la respuesta)</span>.
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div class="titulo__container">
+                <h3 class="titulo">¿Qué es una <span class="nes-text is-success">REST</span>?</h3>
+            </div>
+            <div class="main__containers">
+                <section  class="message -left parrafo__container">
+                    <div class="nes-balloon from-left">
+                        <p class="parrafo">
+                            REST no es un protocolo ni un estándar, sino más bien un conjunto de límites de arquitectura. 
+                            Los desarrolladores de las API pueden implementarlo de distintas maneras.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        <div class="titulo__container">
+            <h3 class="titulo subtitulo">Características de <span class="nes-text is-warning">REST</span></h3>
+        </div>   
+        <div class="main__containers">
+            <section  class="caracteristicas__container">
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"> Las operaciones más importantes relacionadas con los datos en cualquier 
+                            sistema REST y la especificación HTTP son cuatro: POST (crear), 
+                            GET (leer y consultar), PUT (editar) y DELETE (eliminar). 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"> <span class="nes-text is-error">Protocolo cliente/servidor sin estado:</span> cada petición HTTP contiene toda la 
+                            información necesaria para ejecutarla, lo que permite que ni cliente ni 
+                            servidor necesiten recordar ningún estado previo para satisfacerla. 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"><span class="nes-text is-error">Los objetos en REST siempre se manipulan a partir de la URI:</span> La URI nos 
+                            facilita acceder a la información para su modificación o borrado, o, por ejemplo, para compartir 
+                            su ubicación exacta con terceros.  
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"><span class="nes-text is-error">Interfaz uniforme:</span>  para la transferencia de datos en un sistema REST, 
+                            este aplica acciones concretas (POST, GET, PUT y DELETE) sobre los recursos, siempre y cuando 
+                            estén identificados con una URI. 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"><span class="nes-text is-error">Sistema de capas:</span>  arquitectura jerárquica entre los componentes. 
+                            Cada una de estas capas lleva a cabo una funcionalidad dentro del sistema REST. 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+            </section>
+        </div>
+        <div class="titulo__container">
+            <h3 class="titulo subtitulo subtitulo2">Para que una API se considere de <span class="nes-text is-warning">RESTful</span>,<br> debe cumplir los siguientes criterios:</h3>  
+        </div>
+        <div class="main__containers">
+            <section  class="caracteristicas__container">
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas"> 
+                            Arquitectura cliente-servidor compuesta de clientes, servidores y recursos, 
+                            con la gestión de solicitudes a través de HTTP. 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas">
+                            Datos que pueden almacenarse en caché y optimizan las interacciones entre el cliente 
+                            y el servidor. 
+                            
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas">
+                            Una interfaz uniforme entre los elementos, para que la información 
+                            se transfiera de forma estandarizada. Para ello deben cumplirse las siguientes condiciones:
+                            <br><br>
+                        </li>
+                    </ul>
+                    <div>
+                        <ul class="nes-list is-disc">
+                            <li class="caracteristicas caracteristicas-color">
+                                Los recursos solicitados deben ser identificables e independientes de las 
+                                representaciones enviadas al cliente.
+                            </li><br>
+                            <li class="caracteristicas caracteristicas-color">
+                                El cliente debe poder manipular los recursos a través de la representación 
+                                que recibe, ya que esta contiene suficiente información para permitirlo.
+                            </li><br>
+                            <li class="caracteristicas caracteristicas-color">
+                                Los mensajes autodescriptivos que se envíen al cliente deben contener
+                                la información necesaria para describir cómo debe procesarla.
+                            </li><br>
+                            <li class="caracteristicas caracteristicas-color">
+                                Debe contener hipertexto o hipermedios, lo cual significa que cuando 
+                                el cliente acceda a algún recurso, debe poder utilizar hipervínculos 
+                                para buscar las demás acciones que se encuentren disponibles en ese momento.
+                            </li><br>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas">
+                            Un sistema en capas que organiza en jerarquías invisibles para el cliente 
+                            cada uno de los servidores (los encargados de la seguridad, del equilibrio 
+                            de carga, etc.) que participan en la recuperación de la información solicitada.  
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <ul class="nes-list is-circle">
+                        <li class="caracteristicas">
+                            Código disponible según se solicite (opcional), es decir, la capacidad 
+                            para enviar códigos ejecutables del servidor al cliente cuando se requiera, 
+                            lo cual amplía las funciones del cliente. 
+                        </li>
+                    </ul>
+                </div>
+                <br>
+            </section>
+        </div>      
+        </main>
+        <footer class="footer">
+            <div class="info">
+                <a href="https://www.twitch.tv" class="info__a">
+                    <i class="nes-icon twitter is-medium" ></i>
+                </a>
+                <a href="https://www.twitch.tv" class="info__a">
+                    <i class="nes-icon github is-medium"></i>
+                </a>
+                <a href="" class="info__a">
+                    <i class="nes-icon facebook is-medium"></i>
+                </a>
+            </div>
+            <div class="charm">
+                <i class="nes-charmander"></i>
+            </div>
+            <section class="message -left mensaje">
+                <div class="nes-balloon from-left">
+                    <p class="nombre">Juan Corrales - 20191578015</p>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
